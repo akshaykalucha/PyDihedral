@@ -128,6 +128,3 @@ class Dihedral:
     @staticmethod 
     def sublists(l):
         return chain(*(combinations(l, i) for i in range(len(l) + 1)))
-
-d3 = Dihedral(3)
-print(d3.vertices())
